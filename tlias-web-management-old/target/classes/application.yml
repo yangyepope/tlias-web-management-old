@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mybatis
     username: root
-    password: 
+    password:
   #文件上传的配置
   servlet:
     multipart:
@@ -21,7 +21,7 @@ aliyun:
   oss:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
     accessKeyId: LTAI4GCH1vX6DKqJWxd6nEuW
-    accessKeySecret: yBshYweHOpqDuhCArrVHwIiBKpyqSL
+    accessKeySecret: 
     bucketName: web-tlias
 #spring事务管理日志
 logging:
